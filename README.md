@@ -21,23 +21,20 @@ Vision Model
      v
 Challan Evidence
      |
-     |----------------------|
-                            |
-                            v
-                    Evidence Reconciliation
-                            ^
-                            |
+     v
+Evidence Reconciliation
+     ^
+     |
 Voice Note -> Whisper -> Voice Evidence
-                            |
-                            v
-                    Conflict Detection
-                            |
-                            v
-                     Human Review
-                       /       \
-                      /         \
-                     v           v
-        RECOMMEND_PROCEED   HOLD_FOR_REVIEW
+     |
+     v
+Conflict Detection
+     |
+     v
+Human Review
+   /       \
+  v         v
+RECOMMEND   HOLD_FOR_REVIEW
 
 Sakshi compares evidence such as:
 
@@ -189,7 +186,7 @@ You should see a localhost address in Terminal.
 
 Open:
 
-http://127.0.0.1:8000
+http://127.0.0.1:8001
 
 7. Stop the server
 
