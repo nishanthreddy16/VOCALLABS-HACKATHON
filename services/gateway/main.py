@@ -95,7 +95,7 @@ async def gateway_reconcile(request: Request, authorization: Optional[str] = Hea
     data = {}
     
     for key, value in form.multi_items():
-        if isinstance(value, UploadFile):
+        if hasattr(value, "filename") and hasattr(value, "read"):
             content_bytes = await value.read()
             if len(content_bytes) > 0:
                 files.append((key, (value.filename, content_bytes, value.content_type)))

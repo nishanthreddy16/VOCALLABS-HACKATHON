@@ -3,4 +3,4 @@ WORKDIR /app
 COPY services/gateway/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY services/gateway/ .
-COPY app/static/ ./app/static/
+COPY app/static/ ./static/
