@@ -1,3 +1,4 @@
+Github Link: https://github.com/nishanthreddy16
 Sakshi — WhatsApp Evidence Reconciler
 
 Sakshi helps a small contractor settle a delivery dispute without guessing. A supplier’s delivery-challan photo and a foreman’s Hindi/Hinglish voice note are converted into a shared claim graph. It highlights exactly what conflicts, shows the evidence behind each claim, and produces a human-review decision — it never silently “approves” a payment.
